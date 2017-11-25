@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<link href="style1.css" rel="stylesheet" >
+<title>Update Suppler</title>
+
+</head>
+
+<body>
+<div class="topcontent">
+	<form action="update.php" method="post">
+	<h1>Update ID</h1>
+	<table width="400" border="1" align="center">
+	
+	<tr>
+		<th width="300" scope="row">ID:</th>
+		<td width="234"><input name="id" type="number" min="1" id="id" placeholder="Please enter exiting ID" required=""></td>
+    </tr>
+	
+	<tr>
+		<th width="300" scope="row">Name:</th>
+		<td width="234"><input name="Name" type="text" id="Name" placeholder="Please enter your name" required=""></td>
+    </tr>
+	
+	<tr>
+		<th width="300" scope="row">Address:</th>
+		<td width="234"><input name="Address" type="text" id="Address" placeholder="Please enter your address" required=""></td>
+    </tr>
+	
+	<tr>
+		<th width="300" scope="row">Contact:</th>
+		<td width="234"><input name="Contact" type="text" id="Contact" placeholder="Please enter your contact" required=""></td>
+    </tr>
+	
+	<tr>
+		<th width="300" scope="row">Email:</th>
+		<td width="234"><input name="Email" type="text" id="Email" placeholder="Please enter your email" required=""></td>
+    </tr>
+	
+	<tr>
+		<th width="300" scope="row">Product:</th>
+		<td width="234"><input name="Product" type="text" id="Product" placeholder="Please enter your product" required=""></td>
+    </tr>
+	
+	<tr>
+		<th width="300" scope="row">Price:</th>
+		<td width="234"><input name="Price" type="number" min="1" id="Price" placeholder="Please enter your price" required=""></td>
+    </tr>
+	
+	<tr>
+		<td>
+		</td>
+		<td>
+			<input type="submit" value="Add">
+            <input type="reset" value="Reset">
+        </td>
+    </tr>
+	
+	<td>
+	</td>
+	<td>
+	<a href="getdata.php"><input type="button"  value="Back" style="padding-left:50px; background-color:peach "/>
+	</td>
+</form>
+</div>
+</body>
+</html>
